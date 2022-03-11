@@ -1,9 +1,8 @@
-#include <iostream>
-#include <alg.h>// Copyright 2021 NNTU-CS
+// Copyright 2021 NNTU-CS
 
 int cbinsearch(int *arr, int size, int value) {
   //  поместить сюда реализацию алгоритма
-  L = 0, R = size - 1, middle, numbers = 0;
+  int L = 0, R = size - 1, middle, numbers = 0;
   while (L < R) {
     middle = (L + R) / 2;
     if (arr[middle] < value)
